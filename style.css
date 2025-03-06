@@ -25,7 +25,8 @@ nav{
 
 nav .nav-part2{
     display: flex;
-    gap: 2vw;
+    /* gap: 2vw; */
+    gap: 2.5vw;
 }
 
 nav .nav-part2 h4{
@@ -44,13 +45,72 @@ nav .nav-part2 h4{
     bottom: 0%;
     border-bottom: 1px solid #dadada;
     transition: all ease 0.65s;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center;
+    gap: 2vw; */
+    /* justify-content: space-between; */
+    /* padding: 2vw 15vw; */
+    /* 1 */
+    /* justify-content: center;
+    gap: 3vw; */
+    /* gap: 2.7vw; */
+    justify-content: space-between;
+    padding: 0.5vw 25vw 2vw 25.35vw;
 }
 
-nav:hover #nav-bottom{
+
+/* .bottom-div{ */
+    /* margin-top: 1vw; */
+    /* position: absolute; */
+/* } */
+
+.bottom-div h5 span{
     /* background-color: red; */
-    height: 100%;
-    bottom: -100%;
+    /* font-size: 1vw; */
+    font-size: 0.9vw;
+    font-weight: 500;
+    display: inline-block;
+    opacity: 0;
 }
+
+/* .bottom-div h5 span:hover{
+    opacity: 1;
+} */
+
+.bottom-div h5{
+    /* background-color: red; */
+    margin-bottom: 0.4vw;
+    overflow: hidden;
+}
+
+/* .bottom-div{ */
+    /* padding-bottom: 10vw; */
+/* } */
+
+nav:hover #nav-bottom{
+    background-color: #111;
+    height: 120%;
+    bottom: -120%;
+    z-index: 999;
+}
+
+/* .bottom-div{
+    opacity: 0;
+}
+
+.bottom-div:hover{
+    opacity: 1;
+} */
+
+/* #nav-bottom{
+    opacity: 0;
+}
+
+#nav-bottom:hover{
+    opacity: 1;
+} */
+
 
 
 
